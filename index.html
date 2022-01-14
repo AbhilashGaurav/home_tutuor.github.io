@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="chat.css">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+<style>
+.wel{
+  margin-left:250px;
+}
+
+#q{
+    font-size:20px;
+    border-radius:50px;  
+    padding-left:500px;
+    padding-right:500px;
+    background-color:rgb(74, 89, 218);
+     
+}
+ 
+</style>
+
+</head>
+
+<body background=".gif">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#how_to_register">How to Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <br><br>
+      <br><br>
+         <br>
+           <div class="wel"><b>
+           <font size="20" color="blue">
+            Hey...!! <br>
+            <span style="vertical-align:middle">
+            Welcome To <u><b><i><font color="RED"></font><i> <font color="red">HOME</font><font color="green"> Tutor</i></b></u> </font> <font color="blue"> by</font><font color="orange"> <b>OEN<sup>pvt</sup></b> </font></font></span>
+           <span style="vertical-align:middle"> <img id="img" src="image/back4.gif" onmouseleave="pause()" onmouseenter="welcome()" width="400" style="border-radius:50%;position:relative;left:0;top:0;"><img src="image/Picture1.png"  width="200" height="200"style="position:absolute; left:1183px;top:350px; border-radius:50%;"></span>
+  </font>
+</div>
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: rgb(255, 255, 255);" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <section id="how_to_register"class="mt-5 p-4"> 
+        <center>
+            <p id="q"><font color="white" size=5%>How to Register<br>
+                               FOR STUDENTS</font></p></center>
+            <img src="image/student.jpg" style="position:relative;left:25%;top:0;"><br>           
+            <p id="q"><font color="white">1. Register</font> </p></center><font size=5%><br>
+• Please register on our site and post tuition needs for free.<br>
+• You can register as a free member or a premium members. Premium members 
+can see the details of tutors immediately on the site where as free members 
+can only see the tuition details. For contacting student/parent they need to 
+upgrade to our premium membership if they want to take up that tuition.<br>
+<p id="q"><font color="white">2. Search for Tutor</font> </p>
+<br>
+• After registering and confirming your email and phone number then you can 
+search for tutors available in our site and can select the tutor you like.<br>
+• If you are a premium member then you can contact the tutor immediately and 
+then ask for a demo session.<br>
+• If you like the demo session and the tutor then you can negotiate the price with 
+the tutor and can arrange the tuition.<br>
+• It is your responsibility to validate the credentials of the tutor before you agree 
+for the tuition.<br>
+<p id="q"><font color="white">3. Excel in Studies</font> </p>
+<br>
+• You can monitor the tuition at your home regularly and can give us the 
+feedback on the tutor so that you can help other students/parents in selecting 
+the best tutors for their tuition.<br>
+• Having a private tutor mentor the student is known to give very good results 
+and you can check the performance yourself.<br><br>
+<center>
+    <p id="q"><font color="white" size=5%>How to Register<br>
+                       FOR TUTOR</font></p></center>
+                       <img src="image/college.jpg" style="position:relative;left:25%;top:0;"><br>
+<p id="q"><font color="white">1. Register.</font> </p>
+
+<br>
+• Please register on our site<br>
+• You can register as a free member or a premium members. Premium members 
+can see the details of tuition needs posted by our students immediately on the 
+site where as free members need to send a message to the student who 
+posted the tuition through our site and wait for the response.<br>
+<p id="q"><font color="white">2. Search for Tuition</font> </p>
+<br>
+• After registering and confirming your email and phone number then you can 
+search for tuitions available in our site and can select the tuition you like.<br>
+• If you are a premium member then you can contact the student/parent who 
+posted the tuition immediately and then give a demo session.<br>
+• If the parent/student likes the demo and is willing join the tuition then you can 
+ask the parent/student to deposit the first month tuition fee with us to ensure 
+you get paid without any issues at the end of the month.<br><br>
+<p id="q"><font color="white">3. Earn Money</font> </p>
+<br>
+• You can earn money for your work and need not depend on your 
+parents/guardians for financial support.<br><br><br></font>
+<fieldset>
+    <legend>Contact Form</legend>
+    <form name="frmContact" method="post" action="index.html">
+    <p>
+    <label for="Name">Name </label>
+    <input type="text" name="txtName" id="txtName">
+    </p>
+    <p>
+    <label for="email">Email</label>
+    <input type="text" name="txtEmail" id="txtEmail">
+    </p>
+    <p>
+    <label for="phone">Phone</label>
+    <input type="text" name="txtPhone" id="txtPhone">
+    </p>
+    <p>
+    <label for="message">Message</label>
+    <textarea name="txtMessage" id="txtMessage"></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <input type="submit" name="Submit" id="Submit" value="Submit">
+    </p>
+    </form>
+    </fieldset>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="responses.js"></script>
+<script src="chat.js"></script>
+<script>
+    var snd=new Audio();
+               function welcome(){
+                 snd.src="audio/welcome.wav";
+                 snd.play();
+             }
+             function pause(){
+               snd.pause();
+             }
+    </script>
+</html>
